@@ -109,7 +109,6 @@ header .container {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 header .container::after {
   content: "";
