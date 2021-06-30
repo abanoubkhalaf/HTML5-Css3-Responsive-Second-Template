@@ -271,6 +271,7 @@ header nav .form i:hover {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+
 }
 .landing .text:hover{
   background-color: rgb(25 109 166);
@@ -289,14 +290,35 @@ header nav .form i:hover {
   max-width: 450px;
 }
 .landing .text .content h2 {
+  color: white;
   font-size: 32px;
   font-weight: normal;
   line-height: 1.5;
   margin-bottom: 20px;
+  transition: 0.3s;
+  animation: heading-name 2s ease-in-out 1s infinite alternate-reverse;
+  -webkit-animation: heading-name 2s ease-in-out 1s infinite alternate-reverse;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+@keyframes heading-name{
+0%{
+  -webkit-text-fill-color: white;
+}
+50%{
+  -webkit-text-fill-color: red;
+}
+100%{
+  -webkit-text-fill-color: white;
+}
+
 }
 .landing .text .content p {
   font-size: 14px;
   line-height: 1.5;
+  font-weight: bold;
 }
 .landing .change-background {
   position: absolute;
