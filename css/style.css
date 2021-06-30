@@ -16,7 +16,6 @@ html {
 }
 body {
   font-family: "Open Sans", sans-serif;
-  overflow: hidden;
 }
 ul {
   list-style: none;
@@ -104,6 +103,7 @@ header {
   width: 100%;
   left: 0;
   z-index: 3;
+  overflow-x: hidden;
 }
 header .container {
   display: flex;
