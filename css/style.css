@@ -811,4 +811,9 @@ header nav .form i:hover {
   font-size: 30px;
   color: white;
 }
+@media (max-width: 767px) {
+  .footer h2 {
+    font-size: 20px;
+  }
+}
 /*end footer*/
