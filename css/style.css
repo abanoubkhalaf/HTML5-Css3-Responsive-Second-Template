@@ -109,6 +109,7 @@ header .container {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 header .container::after {
   content: "";
@@ -138,6 +139,17 @@ header .container nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
+  animation: nav 1s ease-in-out 1;
+  -webkit-animation: nav 2s ease-in-out;
+}
+@keyframes nav {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
 
 header .container nav .list {
