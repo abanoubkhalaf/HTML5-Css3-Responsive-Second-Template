@@ -103,13 +103,13 @@ header {
   width: 100%;
   left: 0;
   z-index: 3;
-  overflow-x: hidden;
 }
 header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
+  overflow-x: hidden;
 }
 header .container::after {
   content: "";
