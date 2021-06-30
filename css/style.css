@@ -144,7 +144,7 @@ header .container nav {
 }
 @keyframes nav {
   from {
-    left: 50%;
+    left: 49%;
   }
   to {
     left: 0;
