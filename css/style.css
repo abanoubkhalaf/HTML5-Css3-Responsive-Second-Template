@@ -120,6 +120,18 @@ header .container::after {
 }
 header .container .logo img {
   width: 50px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+header .container .logo img:hover {
+  transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
 }
 header .container nav {
   flex: 1;
@@ -154,11 +166,14 @@ header .container nav ul a {
   position: relative;
   z-index: 3;
 }
+
 header .container nav ul a.active,
 header .container nav ul a:hover {
   color: var(--main-color);
   border-bottom: 1px solid var(--main-color);
+  top: -10px;
 }
+
 header nav .form {
   width: 40px;
   height: 30px;
@@ -237,7 +252,19 @@ header nav .form i:hover {
   width: 50%;
   display: flex;
   justify-content: flex-end;
+  animation: color-animation 2s ease-in-out;
+  -webkit-animation: color-animation 2s ease-in-out;
 }
+
+@keyframes color-animation {
+  0% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
 .landing .text .content {
   max-width: 450px;
 }
@@ -590,6 +617,42 @@ header nav .form i:hover {
   background-color: var(--main-color);
   height: 100%;
   position: relative;
+}
+
+@keyframes width-span-one {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes width-span-two {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes width-span-three {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes width-span-four {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+.our-skills .container .prog-holder .prog:hover span {
+  animation-play-state: paused !important;
 }
 .our-skills .container .prog-holder .prog span::before {
   content: attr(data-progress);
