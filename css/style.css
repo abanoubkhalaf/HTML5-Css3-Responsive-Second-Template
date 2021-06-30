@@ -16,6 +16,7 @@ html {
 }
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x:hidden ;
 }
 ul {
   list-style: none;
@@ -109,7 +110,6 @@ header .container {
   justify-content: space-between;
   align-items: center;
   position: relative;
-  overflow-x: hidden;
 }
 header .container::after {
   content: "";
