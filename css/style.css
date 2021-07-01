@@ -399,6 +399,15 @@ header nav .form i:hover {
     display: none;
   }
 }
+@media (max-width: 767px){
+  .landing .text {
+    width: 80%;
+  }
+  .landing .text .content {
+    width: 100%;
+  }
+}
+
 
 /*end landing */
 
