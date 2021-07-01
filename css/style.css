@@ -404,10 +404,6 @@ header nav .form i:hover {
   .landing .change-background {
     display: none;
   }
-  .landing .text img{
-    margin-right: 30px;
-     width:15%;
-  }
 }
 
 @media (min-width: 767px) and (max-width:991px) {
