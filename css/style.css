@@ -264,10 +264,10 @@ header nav .form i:hover {
   height: 36%;
 }
 .main-image img{
-  width: 13%;
-  max-height: 120%;
+  max-width: 20%;
+  height: 100%;
   position:absolute;
-  left: 50px;
+  left: 40px;
   top: 50%;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
@@ -288,7 +288,7 @@ header nav .form i:hover {
   padding: 50px;
   background-color: var(--transpernt-color);
   color: white;
-  width: 50%;
+  width: 60%;
   display: flex;
   justify-content: flex-end;
   animation: color-animation 2s ease-in-out;
@@ -357,7 +357,7 @@ header nav .form i:hover {
   color: white;
 }
 .landing .fa-angle-left {
-  left: 30px;
+  left: 20px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -368,7 +368,7 @@ header nav .form i:hover {
   color: var(--main-color);
 }
 .landing .fa-angle-right {
-  right: 30px;
+  right: 20px;
   transition: 0.3s;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -426,14 +426,11 @@ header nav .form i:hover {
   .landing .change-background {
     display: none;
   }
-  .main-image img{
-    max-height: 150%;
-  }
 }
 
 @media (min-width: 767px) and (max-width:991px) {
   .landing .text {
-    width: 90%;
+    width: 85%;
   }
   
   .landing .text .content h2 {
@@ -443,26 +440,14 @@ header nav .form i:hover {
   .landing .change-background {
     display: none;
   }
- 
 }
 @media (min-width: 992px) and (max-width:1199px){
   .landing .text {
     width: 70%;
-  }
-  .main-image img{
-    max-height: 150%;
-  }
-  
+  } 
   }
 
-@media (min-width:1200px){
-  .landing .text {
-    width: 60%;
-  }
-  .main-image img{
-    max-height: 120%;
-  }
-}
+  
 
 
 
