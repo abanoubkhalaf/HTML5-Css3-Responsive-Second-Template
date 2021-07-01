@@ -399,9 +399,9 @@ header nav .form i:hover {
     display: none;
   }
 }
-@media (max-width: 767px){
+@media (max-width: 991px){
   .landing .text {
-    width: 80%;
+    width: 70%;
   }
   .landing .text .content {
     width: 100%;
