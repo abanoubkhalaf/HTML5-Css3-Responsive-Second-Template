@@ -286,7 +286,10 @@ header nav .form i:hover {
     left: 0;
   }
 }
-
+.landing .text img{
+  margin-right: 30px;
+   width:15%;
+}
 .landing .text .content {
   max-width: 450px;
 }
